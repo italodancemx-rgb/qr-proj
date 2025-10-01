@@ -2,3 +2,10 @@
 body {
     background-color: hsl(212, 45%, 89%);
 }
+
+
+.card {
+    background-color: white;
+    height: 500px;
+    width: 250px;
+}
