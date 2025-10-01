@@ -9,11 +9,20 @@ body {
     text-align: center;
     font-family: Outfit;
     min-height: 100vh;
+    
 }
     
     
 
- 
+ .blue-bg {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 800px;
+    min-height: 800px;
+    box-shadow: 10px 5px 20px 0 rgba(0, 0, 0, 1);
+ }
 
 
 .card {
@@ -22,10 +31,32 @@ body {
     align-items: center;
     justify-content: center;
     background-color: white;
-    height: 400px;
-    width: 250px;
+    height: 600px;
+    width: 350px;
     border: 2px solid black;
     border-radius: 20px;
-    padding: 50px;
+    padding: 5px;
+    padding-top: 1px;
     align-items: center;
+    box-shadow: 10px 5px 20px 0 rgba(0, 0, 0, 1);
+}
+
+
+.qr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    max-width: 90%;
+    border-radius: 25px;
+    
+}
+
+.shadows {
+    box-shadow: 10px 5px 20px 0 rgba(0, 0, 0, 1);
+}
+
+
+.font-size-override {
+    font-size: 25px
+
 }
